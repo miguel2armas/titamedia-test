@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/titamedia-test/static/css/main.a4a20492.chunk.css",
+    "main.js": "/titamedia-test/static/js/main.041dcc99.chunk.js",
+    "main.js.map": "/titamedia-test/static/js/main.041dcc99.chunk.js.map",
+    "runtime-main.js": "/titamedia-test/static/js/runtime-main.5b03ed1c.js",
+    "runtime-main.js.map": "/titamedia-test/static/js/runtime-main.5b03ed1c.js.map",
+    "static/js/2.13c5b2f2.chunk.js": "/titamedia-test/static/js/2.13c5b2f2.chunk.js",
+    "static/js/2.13c5b2f2.chunk.js.map": "/titamedia-test/static/js/2.13c5b2f2.chunk.js.map",
+    "static/js/3.adaed825.chunk.js": "/titamedia-test/static/js/3.adaed825.chunk.js",
+    "static/js/3.adaed825.chunk.js.map": "/titamedia-test/static/js/3.adaed825.chunk.js.map",
+    "index.html": "/titamedia-test/index.html",
+    "static/css/main.a4a20492.chunk.css.map": "/titamedia-test/static/css/main.a4a20492.chunk.css.map",
+    "static/js/2.13c5b2f2.chunk.js.LICENSE.txt": "/titamedia-test/static/js/2.13c5b2f2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b03ed1c.js",
+    "static/js/2.13c5b2f2.chunk.js",
+    "static/css/main.a4a20492.chunk.css",
+    "static/js/main.041dcc99.chunk.js"
+  ]
+}
