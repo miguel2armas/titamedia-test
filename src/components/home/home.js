@@ -1,18 +1,11 @@
 import React from "react";
-import FacebookLogin from 'react-facebook-login';
+import PostList from "./post_list/postList";
+import Head_nav from "../head_nav/head_nav";
+
 const Home = () => {
-    const responseFacebook = (response) => {
-        console.log(response);
-    }
   return <div>
-      <FacebookLogin
-          appId="422517372598479"
-          autoLoad
-          callback={responseFacebook}
-          render={renderProps => (
-              <button onClick={renderProps.onClick}>This is my custom FB button</button>
-          )}
-      />
-  </div>
+        <Head_nav/>
+        <PostList/>
+        </div>
 }
 export default Home

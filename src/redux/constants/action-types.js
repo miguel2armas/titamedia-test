@@ -1,0 +1,6 @@
+export const ActionTypes = {
+    SIGNIN_USER: "SIGNIN_USER",
+    SIGNOUT_USER: "SIGNOUT_USER",
+    THEME_DARK: "THEME_DARK",
+    THEME_LIGTH: "THEME_LIGTH"
+};

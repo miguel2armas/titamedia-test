@@ -1,0 +1,44 @@
+.nav-home{
+    background-color: #244f3a;
+}
+.nav-home-ul{
+    margin: 0;
+    padding: 9px;
+    color: #fff;
+}
+.nav-home-a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-home-li{
+    display: inline-block;
+
+}
+.nav-home-img{
+    max-width: 100%;
+    width: 60px;
+    height: auto;
+    padding-left: 25px;
+}
+.nav-home-li-out{
+    padding: 9px;
+    list-style:none;
+    float: right;
+    text-decoration: none;
+}
+.user-email{
+    font-size: 10px;
+}
+.nav-home-li-img{
+    padding: 9px;
+    text-align: right;
+    list-style:none;
+    float: right;
+    text-decoration: none;
+}
+.user-img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    width: 40%;
+}

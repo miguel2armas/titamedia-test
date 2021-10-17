@@ -1,11 +1,14 @@
-
 import './App.css';
-import Home from "./components/home/home";
+import HomeInit from "./components/home/homeInit";
+import {useDispatch} from "react-redux";
+import {setThemePage} from "./redux/reducers/themefunctions";
 
 function App() {
+    const dispatch = useDispatch();
+    setThemePage(dispatch)
   return (
     <div>
-      <Home/>
+      <HomeInit/>
     </div>
   );
 }
