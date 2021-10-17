@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/titamedia-test/static/css/main.a4a20492.chunk.css",
-    "main.js": "/titamedia-test/static/js/main.ab0df1b5.chunk.js",
-    "main.js.map": "/titamedia-test/static/js/main.ab0df1b5.chunk.js.map",
+    "main.js": "/titamedia-test/static/js/main.096fe9e2.chunk.js",
+    "main.js.map": "/titamedia-test/static/js/main.096fe9e2.chunk.js.map",
     "runtime-main.js": "/titamedia-test/static/js/runtime-main.33d532a1.js",
     "runtime-main.js.map": "/titamedia-test/static/js/runtime-main.33d532a1.js.map",
-    "static/js/2.a8960a0a.chunk.js": "/titamedia-test/static/js/2.a8960a0a.chunk.js",
-    "static/js/2.a8960a0a.chunk.js.map": "/titamedia-test/static/js/2.a8960a0a.chunk.js.map",
+    "static/js/2.dc677d06.chunk.js": "/titamedia-test/static/js/2.dc677d06.chunk.js",
+    "static/js/2.dc677d06.chunk.js.map": "/titamedia-test/static/js/2.dc677d06.chunk.js.map",
     "static/js/3.1406617e.chunk.js": "/titamedia-test/static/js/3.1406617e.chunk.js",
     "static/js/3.1406617e.chunk.js.map": "/titamedia-test/static/js/3.1406617e.chunk.js.map",
     "index.html": "/titamedia-test/index.html",
     "static/css/main.a4a20492.chunk.css.map": "/titamedia-test/static/css/main.a4a20492.chunk.css.map",
-    "static/js/2.a8960a0a.chunk.js.LICENSE.txt": "/titamedia-test/static/js/2.a8960a0a.chunk.js.LICENSE.txt"
+    "static/js/2.dc677d06.chunk.js.LICENSE.txt": "/titamedia-test/static/js/2.dc677d06.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.33d532a1.js",
-    "static/js/2.a8960a0a.chunk.js",
+    "static/js/2.dc677d06.chunk.js",
     "static/css/main.a4a20492.chunk.css",
-    "static/js/main.ab0df1b5.chunk.js"
+    "static/js/main.096fe9e2.chunk.js"
   ]
 }
