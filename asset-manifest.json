@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/titamedia-test/static/css/main.bb1dc404.chunk.css",
-    "main.js": "/titamedia-test/static/js/main.b608724d.chunk.js",
-    "main.js.map": "/titamedia-test/static/js/main.b608724d.chunk.js.map",
+    "main.css": "/titamedia-test/static/css/main.8b141874.chunk.css",
+    "main.js": "/titamedia-test/static/js/main.8ce6740a.chunk.js",
+    "main.js.map": "/titamedia-test/static/js/main.8ce6740a.chunk.js.map",
     "runtime-main.js": "/titamedia-test/static/js/runtime-main.1f1e7093.js",
     "runtime-main.js.map": "/titamedia-test/static/js/runtime-main.1f1e7093.js.map",
     "static/js/2.989958c5.chunk.js": "/titamedia-test/static/js/2.989958c5.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.e98da114.chunk.js": "/titamedia-test/static/js/3.e98da114.chunk.js",
     "static/js/3.e98da114.chunk.js.map": "/titamedia-test/static/js/3.e98da114.chunk.js.map",
     "index.html": "/titamedia-test/index.html",
-    "static/css/main.bb1dc404.chunk.css.map": "/titamedia-test/static/css/main.bb1dc404.chunk.css.map",
+    "static/css/main.8b141874.chunk.css.map": "/titamedia-test/static/css/main.8b141874.chunk.css.map",
     "static/js/2.989958c5.chunk.js.LICENSE.txt": "/titamedia-test/static/js/2.989958c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1f1e7093.js",
     "static/js/2.989958c5.chunk.js",
-    "static/css/main.bb1dc404.chunk.css",
-    "static/js/main.b608724d.chunk.js"
+    "static/css/main.8b141874.chunk.css",
+    "static/js/main.8ce6740a.chunk.js"
   ]
 }
