@@ -14,11 +14,6 @@ const Head_nav = ()=>{
     return <div>
             <nav className="nav-home">
                 <ul className="nav-home-ul">
-                    <li className="nav-home-li">
-                        <a className="nav-home-a" href="/">
-                           <img alt="logo" className="nav-home-img" src={ImgLogo}/>
-                        </a>
-                    </li>
                     <li className="nav-home-li-out">
                         <Button_theme/>
                     </li>
@@ -30,7 +25,7 @@ const Head_nav = ()=>{
                             onLogoutSuccess={logout}
                         />
                     </li>
-                    <li className="nav-home-li-out">
+                    <li className="nav-home-li-out user-name-nav">
                         <div>
                             {userState.name}
                         </div>

@@ -1,70 +1,38 @@
 .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-    justify-items: center;
-    align-items: center;
 }
-.grid-item{
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    border-radius: 5px 5px 5px 5px;
-
+@media (min-width: 800px) {
+    .grid-container{
+        margin: 15px;
+    }
 }
-.top-grip{
-    border-radius: 5px 5px 0 0;
-    align-items: center;
-    display: flex;
-    padding: 5px 15px;
-    background-color: #282c34;
-    color: #f0f0f0;
-    justify-content: space-between;
+@media (max-width: 800px) {
+    .grid-container{
+        margin: 5px;
+    }
 }
-.img-user-post{
-    border-radius: 50%;
-    max-width: 100%;
-    height: auto;
-    width: 50px;
+.div-paginate{
+    text-align: center;
 }
-.name-user-post{
-    margin-left: 10px;
+.btn-paginate{
+    padding: 6px 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #244f3a;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
-.date-public-post{
-    float: right;
+.btn-paginate:disabled{
+    background-color: #9cd3b8;
+    cursor: auto;
 }
-.img-post{
-    max-width: 100%;
-    height: 350px;
-    object-fit: cover;
-}
-.like-post{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4px 8px;
-}
-.div-like{
-    display: flex;
-    align-items: center;
+.text-paginate{
     font-size: 20px;
     font-weight: bold;
-    color: #607D8B;
-}
-.img-like{
-    width: 30px;
-}
-.post-content{
-    padding: 5px;
-}
-.tags-post-list{
-    display: flex;
-}
-.tags-post{
-    border-radius: 8px;
-    background-color: #282c34;
-    padding: 3px 8px;
-    margin: 0 1px;
-    color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
 }

@@ -15,7 +15,7 @@ const Button_theme = () => {
     }
   return <div className="login-div-check-theme">
         <div className="login-div1-check-theme">
-            <input className="login-check-theme" checked={themedata.theme === "dark"} type="checkbox"/>
+            <input className="login-check-theme" checked={themedata.theme === "dark"} onChange={()=>checkTheme()} type="checkbox"/>
             <i onClick={()=>checkTheme()}><span>Dark Mode</span></i>
         </div>
     </div>
