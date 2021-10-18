@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/titamedia-test/static/css/main.74614fde.chunk.css",
-    "main.js": "/titamedia-test/static/js/main.a9972792.chunk.js",
-    "main.js.map": "/titamedia-test/static/js/main.a9972792.chunk.js.map",
-    "runtime-main.js": "/titamedia-test/static/js/runtime-main.0092a992.js",
-    "runtime-main.js.map": "/titamedia-test/static/js/runtime-main.0092a992.js.map",
-    "static/js/2.d506c4b4.chunk.js": "/titamedia-test/static/js/2.d506c4b4.chunk.js",
-    "static/js/2.d506c4b4.chunk.js.map": "/titamedia-test/static/js/2.d506c4b4.chunk.js.map",
-    "static/js/3.47e7910d.chunk.js": "/titamedia-test/static/js/3.47e7910d.chunk.js",
-    "static/js/3.47e7910d.chunk.js.map": "/titamedia-test/static/js/3.47e7910d.chunk.js.map",
+    "main.css": "/titamedia-test/static/css/main.91774597.chunk.css",
+    "main.js": "/titamedia-test/static/js/main.2abde736.chunk.js",
+    "main.js.map": "/titamedia-test/static/js/main.2abde736.chunk.js.map",
+    "runtime-main.js": "/titamedia-test/static/js/runtime-main.0f882130.js",
+    "runtime-main.js.map": "/titamedia-test/static/js/runtime-main.0f882130.js.map",
+    "static/js/2.60dc97ac.chunk.js": "/titamedia-test/static/js/2.60dc97ac.chunk.js",
+    "static/js/2.60dc97ac.chunk.js.map": "/titamedia-test/static/js/2.60dc97ac.chunk.js.map",
+    "static/js/3.7f907caf.chunk.js": "/titamedia-test/static/js/3.7f907caf.chunk.js",
+    "static/js/3.7f907caf.chunk.js.map": "/titamedia-test/static/js/3.7f907caf.chunk.js.map",
     "index.html": "/titamedia-test/index.html",
-    "static/css/main.74614fde.chunk.css.map": "/titamedia-test/static/css/main.74614fde.chunk.css.map",
-    "static/js/2.d506c4b4.chunk.js.LICENSE.txt": "/titamedia-test/static/js/2.d506c4b4.chunk.js.LICENSE.txt"
+    "static/css/main.91774597.chunk.css.map": "/titamedia-test/static/css/main.91774597.chunk.css.map",
+    "static/js/2.60dc97ac.chunk.js.LICENSE.txt": "/titamedia-test/static/js/2.60dc97ac.chunk.js.LICENSE.txt",
+    "static/media/load_nav.ad07ea3f.svg": "/titamedia-test/static/media/load_nav.ad07ea3f.svg",
+    "static/media/load_nav_black.dc541535.svg": "/titamedia-test/static/media/load_nav_black.dc541535.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0092a992.js",
-    "static/js/2.d506c4b4.chunk.js",
-    "static/css/main.74614fde.chunk.css",
-    "static/js/main.a9972792.chunk.js"
+    "static/js/runtime-main.0f882130.js",
+    "static/js/2.60dc97ac.chunk.js",
+    "static/css/main.91774597.chunk.css",
+    "static/js/main.2abde736.chunk.js"
   ]
 }
