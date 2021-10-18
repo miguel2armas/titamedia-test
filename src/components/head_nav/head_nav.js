@@ -1,11 +1,10 @@
 import React from "react";
 import "./head_nav.css"
-import ImgLogo from "../../assets/images/logo/logo.png"
 import {GoogleLogout} from "react-google-login";
 import {useDispatch, useSelector} from "react-redux";
 import {signOutUser} from "../../redux/actions/signUserActions";
-import Button_theme from "../button_theme/button_theme";
-const Head_nav = ()=>{
+import ButtonTheme from "../button_theme/button_theme";
+const HeadNav = ()=>{
     const dispatch = useDispatch();
     let userState = useSelector((state)=>state.userState);
     const logout = ()=>{
@@ -15,7 +14,7 @@ const Head_nav = ()=>{
             <nav className="nav-home">
                 <ul className="nav-home-ul">
                     <li className="nav-home-li-out">
-                        <Button_theme/>
+                        <ButtonTheme/>
                     </li>
                     <li className="nav-home-li-out">
                         <GoogleLogout
@@ -40,4 +39,4 @@ const Head_nav = ()=>{
             </nav>
         </div>
 }
-export default Head_nav
+export default HeadNav

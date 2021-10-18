@@ -2,19 +2,13 @@ import React from "react";
 import "./post.css"
 import moment from "moment";
 import ImgLike from "../../../../assets/images/icons/like.png";
-import {getPostComentData} from "../../../../redux/reducers/postFuntions";
-import {useDispatch} from "react-redux";
+import ModalComent from "../../modal_coment/modalComent";
+import ModalUser from "../../modal_user/modal_user";
 
 const Post = (props) => {
-    const dispatch = useDispatch();
-    const showComents = async (id)=>{
-        console.log(id)
-        await getPostComentData(dispatch, id)
-    }
   return <div className="grid-item">
       <div className="top-grip">
-          <img alt="img-user" className="img-user-post" src={props.post.owner.picture}/>
-
+            <ModalUser userData={props.post.owner}/>
           <div className="name-user-post">
               {props.post.owner.title} {props.post.owner.firstName} {props.post.owner.lastName}
           </div>
@@ -37,8 +31,8 @@ const Post = (props) => {
       <div className="post-content">
           {props.post.text}
       </div>
-      <div onClick={()=>showComents(props.post.id)} className="post-coment">
-          Coments
+      <div className="coment-post">
+          <ModalComent postId={props.post.id}/>
       </div>
   </div>
 }

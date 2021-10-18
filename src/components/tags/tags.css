@@ -1,0 +1,20 @@
+.tag-select{
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin: 3px 3px;
+    display: inline-block;
+    color: #fff;
+}
+.tag-unselect-color{
+    background-color: #607D8B;
+    cursor: pointer;
+}
+.tag-select-color{
+    background-color: #4e5564;
+}
+.grup-tag{
+    width: 100%;
+    align-items: center;
+    align-self: flex-end;
+    align-content: space-evenly;
+}

@@ -3,7 +3,7 @@ import "./button_theme.css"
 import {setDarkTheme, setLightTheme} from "../../redux/actions/themeActions";
 import {useDispatch, useSelector} from "react-redux";
 
-const Button_theme = () => {
+const ButtonTheme = () => {
     const dispatch = useDispatch();
     let themedata = useSelector((state)=>state.themeState);
     const checkTheme = () => {
@@ -20,4 +20,4 @@ const Button_theme = () => {
         </div>
     </div>
 }
-export default Button_theme
+export default ButtonTheme

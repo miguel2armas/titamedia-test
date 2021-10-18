@@ -1,21 +1,23 @@
 import React, {useEffect, useState} from "react";
 import "./postList.css"
-import ImgLike from "../../../assets/images/icons/like.png"
-import {getPostData} from "../../../redux/reducers/postFuntions";
+import imgLogo from "../../../assets/images/logo/logo.png"
+import {getPostData} from "../../../redux/reducers/APIFuntions";
 import {useDispatch, useSelector} from "react-redux";
 import Post from "./post/post";
-let moment = require('moment');
+import {setPage} from "../../../redux/actions/pageSelectActions";
 const PostList = () => {
     const dispatch = useDispatch();
     let postState = useSelector((state)=>state.postState);
-    const [paginateSelect, setPaginateSelect] = useState(0);
-    console.log({postState})
+    let tagsSelectState = useSelector((state)=>state.tagsSelectState);
+    let pageSelectState = useSelector((state)=>state.pageSelectState);
+    //const [paginateSelect, setPaginateSelect] = useState(0);
     useEffect(()=>{
-        getPostData(dispatch, paginateSelect);
+        getPostData(dispatch, pageSelectState, tagsSelectState);
     }, [])
     const nextPage = async (state)=>{
-            setPaginateSelect(state);
-        await getPostData(dispatch, state);
+            //setPaginateSelect(state);
+        dispatch(setPage(state));
+        await getPostData(dispatch, state, tagsSelectState);
         window.scrollTo({
             top: 0,
             left: 0,
@@ -23,20 +25,24 @@ const PostList = () => {
         });
     }
   return <>
-            <div className="grid-container">
                 {postState.data.length===0?(
-                    <div>loading</div>
+                    <div className="loading-post">
+                        <img className="loading-post-img" alt="loading" src={imgLogo}/>
+                    </div>
                 ):
-                    postState.data.map((post)=>{
-                        return <Post post={post} key={post.id}/>
-                    })
+                    (
+                        <div className="grid-container">
+                            {postState.data.map((post)=>{
+                                return <Post post={post} key={post.id}/>
+                            })}
+                        </div>
+                    )
                 }
 
-            </div>
               <div className="div-paginate">
-                  <button className="btn-paginate" disabled={paginateSelect <= 0} onClick={()=>nextPage(paginateSelect-1)}>Back</button>
-                  <span className="text-paginate">{paginateSelect}/{Math.ceil(postState.total / 20)}</span>
-                  <button className="btn-paginate" disabled={paginateSelect >= Math.ceil(postState.total / 20)} onClick={()=>nextPage(paginateSelect+1)}>Next</button>
+                  <button className="btn-paginate" disabled={pageSelectState <= 0} onClick={()=>nextPage(pageSelectState-1)}>Back</button>
+                  <span className="text-paginate">{pageSelectState}/{Math.floor(postState.total / 20)}</span>
+                  <button className="btn-paginate" disabled={pageSelectState >= Math.floor(postState.total / 20)} onClick={()=>nextPage(pageSelectState+1)}>Next</button>
               </div>
         </>
 }

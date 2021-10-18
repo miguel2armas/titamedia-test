@@ -1,10 +1,10 @@
 import React from "react";
 import "./login.css"
 import GoogleLogin from "react-google-login";
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 import {signInUser} from "../../redux/actions/signUserActions";
 import ImgLogo from "../../assets/images/logo/logo.png"
-import Button_theme from "../button_theme/button_theme";
+import ButtonTheme from "../button_theme/button_theme";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -19,7 +19,7 @@ const Login = () => {
   }
   return <div className="div-login">
               <div className="btn-theme-login">
-                <Button_theme/>
+                <ButtonTheme/>
               </div>
                     <section className="section-login">
                       <div className="div1-login">

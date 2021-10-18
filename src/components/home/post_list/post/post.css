@@ -1,6 +1,6 @@
 
 .grid-item{
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid rgb(78, 85, 100);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -14,15 +14,9 @@
     align-items: center;
     display: flex;
     padding: 5px 15px;
-    background-color: #282c34;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #f0f0f0;
     justify-content: space-between;
-}
-.img-user-post{
-    border-radius: 50%;
-    max-width: 100%;
-    height: auto;
-    width: 50px;
 }
 .name-user-post{
     margin-left: 10px;
@@ -60,17 +54,11 @@
 .tags-post{
     font-size: 12px;
     border-radius: 8px;
-    background-color: #282c34;
+    background-color: #1f2228;
     padding: 2px 12px 5px;
     margin: 0 1px;
     color: #fff;
 }
-.post-coment{
-    cursor: pointer;
-    padding-top: 5px;
-    padding-bottom: 8px;
-    text-align: center;
+.coment-post{
     margin-top: auto;
-    border-top: 1px solid #282c34;
-    background-color: #ddd;
 }

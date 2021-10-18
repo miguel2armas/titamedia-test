@@ -1,0 +1,25 @@
+.div-coment{
+    display: flex;
+
+}
+.section-coment{
+    width: 90%;
+    text-align: left;
+}
+.section-coment-top{
+    color: #fff;
+    background-color: #282c34;
+    border-radius: 25px;
+    padding: 3px 15px 15px 20px;
+}
+.name-user-coment{
+    font-weight: bold;
+}
+.coment-date{
+    color: #282c34;
+    padding-left: 25px;
+    line-height: 90%;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}

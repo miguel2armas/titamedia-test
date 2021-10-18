@@ -1,0 +1,21 @@
+.bg-preloader{
+    background-color: #282c34;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-loader{
+    max-width: 100%;
+    width: 30%;
+    height: auto;
+}
+.img-loader-logo{
+    max-width: 100%;
+    width: 20%;
+    height: auto;
+}
+.body-hidden{
+    display: none;
+}

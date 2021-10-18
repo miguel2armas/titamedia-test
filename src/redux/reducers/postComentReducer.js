@@ -1,13 +1,13 @@
 import { ActionTypes } from "../constants/action-types";
 
 
-export const intialState = {
-    data:[]
+export const intialStateComent = {
+    data:[],
+    total:-1
 };
-export const postComentReducer = (state = intialState, { type, payload }) => {
+export const postComentReducer = (state = intialStateComent, { type, payload }) => {
     switch (type) {
         case ActionTypes.SET_COMENT_POST:
-            console.log({payload});
             return payload;
         default:
             return state;
